@@ -1,0 +1,26 @@
+Creat task list
+Upload files and documents to github
+--------------REPORT------------
+1. General idea and purpose about the project.(with diagram!)
+2. Mention the objectives:
+   2.a)Import of database schemes (metadata) from a database instance; if no database connection is available, relational schemes may be prompted manually
+   2.b)Specification and editing of functional dependencies (FDs)
+   2.c)Testing if a given set of FDs is satisfied in a database table (only if a database connection is available)
+   2.d)Computation of a minimal cover
+   2.e)Determination of the attribute closure for a given attribute set
+   2.f)Calculation of all candidate keys
+   2.g)Normal Form (NF) testing from 1NF up to BCNF; FDs which violate a certain NF are reported to the user
+   2.h)Generation of a normalization proposal: synthesis of relations in 3NF is guaranteed; BCNF synthesis may be possible. Normalization includes computation of
+   2.i)the new relations
+   2.j)functional dependencies for the new relations
+   2.k)all candidate keys for the new relations
+   2.l)foreign key dependencies between the new relations
+   2.m)normal forms of the new relations (3NF or BCNF)
+   2.n)If a database connection is established, a SQL script for database transformation is created. This script includes
+   2.o)DDL statements to create the new tables
+   2.p)DML statements to migrate data from the old table to the new tables
+   2.r)DDL statements to delete the old table
+   2.s)DDL statements to add foreign key and constraints to the new tables
+   2.t)DDL statements for view generation to ease the porting of existing database apllications
+   2.u)Import and export of FDs and database schemes as XML files
+   2.v)Import of FDs, automatically retrieved from a database
